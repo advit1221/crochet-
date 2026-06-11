@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/warm-knits/Navbar";
 import { Hero } from "@/components/warm-knits/Hero";
 import { FeaturedProducts } from "@/components/warm-knits/FeaturedProducts";
-import { WhyWarmKnits } from "@/components/warm-knits/WhyWarmKnits";
+import { WhyOurBusiness } from "@/components/warm-knits/WhyWarmKnits";
 import { CustomOrders } from "@/components/warm-knits/CustomOrders";
 import { BestSellers } from "@/components/warm-knits/BestSellers";
 import { Reviews } from "@/components/warm-knits/Reviews";
