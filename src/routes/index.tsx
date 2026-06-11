@@ -20,7 +20,10 @@ export const Route = createFileRoute("/")({
         content:
           "Handcrafted crochet flowers, bouquets, character merch, bag charms and custom gifts. Made with love in Delhi. Tiny gifts, big smiles.",
       },
-      { property: "og:title", content: "Warm Knits — Handmade Crochet Gifts" },
+      {
+        property: "og:title",
+        content: "Warm Knits — Handmade Crochet Gifts",
+      },
       {
         property: "og:description",
         content:
@@ -38,7 +41,7 @@ function Index() {
       <main>
         <Hero />
         <FeaturedProducts />
-        <WhyWarmKnits />
+        <WhyOurBusiness />
         <CustomOrders />
         <BestSellers />
         <Reviews />
